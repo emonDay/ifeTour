@@ -200,11 +200,11 @@ header {
       width: 100%;
       margin-bottom: 30px; } }
 
-.item-dishes {
+.item-attractions {
   position: relative;
   display: block;
   overflow: hidden; }
-  .item-dishes img {
+  .item-attractions img {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
@@ -212,7 +212,7 @@ header {
     -o-transition: .3s all ease-out;
     transition: .3s all ease-out;
     z-index: 1; }
-  .item-dishes:before {
+  .item-attractions:before {
     position: absolute;
     content: "";
     left: 0;
@@ -222,7 +222,7 @@ header {
     z-index: 2;
     background: #000;
     opacity: .3; }
-  .item-dishes .text {
+  .item-attractions .text {
     z-index: 3;
     position: absolute;
     top: 50%;
@@ -231,7 +231,7 @@ header {
     transform: translateY(-50%);
     width: 100%;
     text-align: center; }
-    .item-dishes .text .dishes-heading {
+    .item-attractions .text .attractions-heading {
       font-size: 30px;
       font-weight: 700;
       max-width: 500px;
@@ -239,9 +239,9 @@ header {
       text-transform: uppercase;
       color: #fff; }
       @media (max-width: 991px) {
-        .item-dishes .text .dishes-heading {
+        .item-attractions .text .attractions-heading {
           font-size: 1.3rem; } }
-    .item-dishes .text .dishes-price {
+    .item-attractions .text .attractions-price {
       font-weight: 700;
       font-size: 20px;
       color: #fff;
@@ -255,11 +255,11 @@ header {
       -o-transition: .3s all ease;
       transition: .3s all ease;
       border: 2px solid transparent; }
-  .item-dishes:hover img {
+  .item-attractions:hover img {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1); }
-  .item-dishes:hover .dishes-price {
+  .item-attractions:hover .attractions-price {
     background: transparent;
     border: 2px solid #fff; }
 
