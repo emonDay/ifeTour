@@ -1,11 +1,11 @@
 {
-  "name": "ife-tour",
+  "name": "tourism",
   "version": "0.0.0",
   "description": "",
   "private": true,
   "main": "app.js",
   "scripts": {
-    "start": "nodemon./bin/start",
+    "start": "nodemon ./bin/start",
     "test": "mocha --recursive"
   },
   "dependencies": {
