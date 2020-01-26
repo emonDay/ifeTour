@@ -1271,3 +1271,11 @@ header {
   .categories li.active a, .sidelink li.active a {
     color: #000;
     font-style: italic; }
+  .err-bg{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/ife-header.jpg');
+    height: 100vh;
+  }
+.err-mgggg{
+  padding-top: 20%;
+  font-size: 350% !important;
+}
