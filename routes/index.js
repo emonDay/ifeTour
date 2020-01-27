@@ -15,7 +15,11 @@ router.get('/Oranmiyan', (req, res) => {
   });
 });
 
-
+router.get('/ife-bronze', (req, res)=> {
+  res.render('ifeBronze',{
+    title: 'Ife Tour || Ife Bronze',
+  })
+})
 
 router.get('/contact', (req, res) => {
   res.render('contact', {
