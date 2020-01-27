@@ -9,6 +9,12 @@ router.get('/', (req, res) => {
   });
 });
 
+router.get('/Oranmiyan', (req, res) => {
+  res.render('oranmiyan', {
+    title: 'Ife Tour || Oranmiyan',
+  });
+});
+
 
 
 router.get('/contact', (req, res) => {
