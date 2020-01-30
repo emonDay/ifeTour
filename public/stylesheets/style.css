@@ -630,7 +630,15 @@ header {
 
 .section-subscribe {
   padding: 2em 0; }
-
+.subscribe-input{
+  width: 100% !important;
+  margin: auto;
+  display: block !important;
+}
+.submit-btn{
+  width: 50% !important;
+  margin: auto !important;
+}
 .quote-content {
   max-width: 350px;
   font-size: 16px;
