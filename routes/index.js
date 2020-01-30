@@ -71,6 +71,12 @@ router.get('/contact', (req, res) => {
   });
 });
 
+router.post('/contact', (req, res) => {
+  res.render('successful', {
+    title: 'Ife Tour || Contact',
+  });
+});
+
 router.get('*', (req, res) => {
   res.render('error', {
     title: 'Ife Tour'
