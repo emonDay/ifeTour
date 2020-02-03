@@ -2,7 +2,13 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
  }
-
+.tourist-attrac{
+  /* height: 100%; */
+}
+.link-{
+  text-decoration: underline;
+  
+}
 body {
   background: #fff;
   font-family: "Open Sans", Arial, sans-serif;
